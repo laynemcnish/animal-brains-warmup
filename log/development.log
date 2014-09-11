@@ -1298,3 +1298,264 @@ Migrating to CreateBrains (20140909194517)
   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Pig"], ["body", 192.0], ["brain", 180.0]]
   [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "animal"], ["body", 0.0], ["brain", 0.0]]
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Mountain beaver"], ["body", 1.35], ["brain", 8.1]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Cow"], ["body", 465.0], ["brain", 423.0]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Grey wolf"], ["body", 36.33], ["brain", 119.5]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Goat"], ["body", 27.66], ["brain", 115.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Guinea pig"], ["body", 1.04], ["brain", 5.5]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Dipliodocus"], ["body", 11700.0], ["brain", 50.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Asian elephant"], ["body", 2547.0], ["brain", 4603.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Donkey"], ["body", 187.1], ["brain", 419.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Horse"], ["body", 521.0], ["brain", 655.0]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Potar monkey"], ["body", 10.0], ["brain", 115.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Cat"], ["body", 3.3], ["brain", 25.6]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Giraffe"], ["body", 529.0], ["brain", 680.0]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Gorilla"], ["body", 207.0], ["brain", 406.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Human"], ["body", 62.0], ["brain", 1320.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "African elephant"], ["body", 6654.0], ["brain", 5712.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Triceratops"], ["body", 9400.0], ["brain", 70.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Rhesus monkey"], ["body", 6.8], ["brain", 179.0]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Kangaroo"], ["body", 35.0], ["brain", 56.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Golden hamster"], ["body", 0.12], ["brain", 1.0]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Mouse"], ["body", 0.023], ["brain", 0.4]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Rabbit"], ["body", 2.5], ["brain", 12.1]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Sheep"], ["body", 55.5], ["brain", 175.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Jaguar"], ["body", 100.0], ["brain", 157.0]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Chimpanzee"], ["body", 52.16], ["brain", 440.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Rat"], ["body", 0.28], ["brain", 1.9]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Brachiosaurus"], ["body", 87000.0], ["brain", 154.5]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Mole"], ["body", 0.122], ["brain", 3.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Pig"], ["body", 192.0], ["brain", 180.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "animal"], ["body", 0.0], ["brain", 0.0]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Mountain beaver"], ["body", 1.35], ["brain", 8.1]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Cow"], ["body", 465.0], ["brain", 423.0]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Grey wolf"], ["body", 36.33], ["brain", 119.5]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Goat"], ["body", 27.66], ["brain", 115.0]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Guinea pig"], ["body", 1.04], ["brain", 5.5]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Dipliodocus"], ["body", 11700.0], ["brain", 50.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Asian elephant"], ["body", 2547.0], ["brain", 4603.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Donkey"], ["body", 187.1], ["brain", 419.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Horse"], ["body", 521.0], ["brain", 655.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Potar monkey"], ["body", 10.0], ["brain", 115.0]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Cat"], ["body", 3.3], ["brain", 25.6]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Giraffe"], ["body", 529.0], ["brain", 680.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Gorilla"], ["body", 207.0], ["brain", 406.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Human"], ["body", 62.0], ["brain", 1320.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "African elephant"], ["body", 6654.0], ["brain", 5712.0]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Triceratops"], ["body", 9400.0], ["brain", 70.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Rhesus monkey"], ["body", 6.8], ["brain", 179.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Kangaroo"], ["body", 35.0], ["brain", 56.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Golden hamster"], ["body", 0.12], ["brain", 1.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Mouse"], ["body", 0.023], ["brain", 0.4]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Rabbit"], ["body", 2.5], ["brain", 12.1]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Sheep"], ["body", 55.5], ["brain", 175.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Jaguar"], ["body", 100.0], ["brain", 157.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Chimpanzee"], ["body", 52.16], ["brain", 440.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Rat"], ["body", 0.28], ["brain", 1.9]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Brachiosaurus"], ["body", 87000.0], ["brain", 154.5]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Mole"], ["body", 0.122], ["brain", 3.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Pig"], ["body", 192.0], ["brain", 180.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "animal"], ["body", 0.0], ["brain", 0.0]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Mountain beaver"], ["body", 1.35], ["brain", 8.1]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Cow"], ["body", 465.0], ["brain", 423.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Grey wolf"], ["body", 36.33], ["brain", 119.5]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Goat"], ["body", 27.66], ["brain", 115.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Guinea pig"], ["body", 1.04], ["brain", 5.5]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Dipliodocus"], ["body", 11700.0], ["brain", 50.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Asian elephant"], ["body", 2547.0], ["brain", 4603.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Donkey"], ["body", 187.1], ["brain", 419.0]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Horse"], ["body", 521.0], ["brain", 655.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Potar monkey"], ["body", 10.0], ["brain", 115.0]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Cat"], ["body", 3.3], ["brain", 25.6]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Giraffe"], ["body", 529.0], ["brain", 680.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Gorilla"], ["body", 207.0], ["brain", 406.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Human"], ["body", 62.0], ["brain", 1320.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "African elephant"], ["body", 6654.0], ["brain", 5712.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Triceratops"], ["body", 9400.0], ["brain", 70.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Rhesus monkey"], ["body", 6.8], ["brain", 179.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Kangaroo"], ["body", 35.0], ["brain", 56.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Golden hamster"], ["body", 0.12], ["brain", 1.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Mouse"], ["body", 0.023], ["brain", 0.4]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Rabbit"], ["body", 2.5], ["brain", 12.1]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Sheep"], ["body", 55.5], ["brain", 175.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Jaguar"], ["body", 100.0], ["brain", 157.0]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Chimpanzee"], ["body", 52.16], ["brain", 440.0]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Rat"], ["body", 0.28], ["brain", 1.9]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Brachiosaurus"], ["body", 87000.0], ["brain", 154.5]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"[0m  [["animal", "Mole"], ["body", 0.122], ["brain", 3.0]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "brains" ("animal", "body", "brain") VALUES ($1, $2, $3) RETURNING "id"  [["animal", "Pig"], ["body", 192.0], ["brain", 180.0]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
